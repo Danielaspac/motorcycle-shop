@@ -1,0 +1,191 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #616A6B  ;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Hind Siliguri", Century Gothic;
+}
+@import url(https://fonts.googleapis.com/css?family=Bigshot+One);
+
+p {
+  font-weight: 900;
+}
+.bigPic {
+  margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+  width: 50%;
+}
+.navButtons {
+  max-width: 800px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+.navLink {
+  padding: 15px;
+  text-decoration: underline;
+}
+.myRow {
+  display: flex;
+  flex-direction: column;
+}
+.avatar {
+  height: auto;
+  width: auto;
+  margin-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.centeredText {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 300px;
+  color: white;
+}
+.newrow {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bigFontH {
+  font-weight: 900;
+}
+.c-site-footer {
+  background-color: #FF4D00 ;
+  color: white ;
+  max-width: 200px;
+}
+.iframeContainer {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.row {
+  margin-left: 0px;
+}
+.mainHeader {
+  background-color: #FF4D00 ;
+  color: white;
+  max-width: 250px;
+  padding: 15px;
+  font-family: Trattatello, fantasy;
+  padding: 15px;
+  align-self: center;
+  font-family: monospace;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.background{
+  background-color: #272121;
+  margin:35px !important;
+}
+.myHeader {
+  background-color: #272121;
+  margin: 10px;
+  color: #FF0000;
+  max-width: 600px;
+  padding: 10px;
+  align-self: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+a:link, a:visited {
+  background-color: #FF4D00;
+  color: white;
+  padding: 15px 25px;
+  margin:5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logoFont {
+  font-family: Bookman, serif;
+  font-size: 48px;
+  color: #EC160F;
+  margin: 0px;
+  padding: 30px;
+  text-align: center;
+  
+}
+strong {
+  text-align: center;
+}
+ul {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+  ul {
+    max-width: 90%;
+  }
+  .contacts {
+    margin: 35px;
+  }
+  .bigPic {
+    width: 100%;
+  }
+
+  .centered {
+    position: relative;
+    font-size: 40px;
+    top: 10%;
+    padding-bottom: 15px;
+  }
+
+}
+.pictures {
+  
+  margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+  width: 50%;
+  
+}
